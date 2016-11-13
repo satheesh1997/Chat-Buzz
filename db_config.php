@@ -1,12 +1,12 @@
 <?php
 
-define ("DB_HOST", "sql202.rf.gd"); // set database host
+define ("DB_HOST", ""); // set database host
 
-define ("DB_USER", "rfgd_19137621"); // set database user
+define ("DB_USER", ""); // set database user
 
-define ("DB_PASS","vaioxloud"); // set database password
+define ("DB_PASS",""); // set database password
 
-define ("DB_NAME","rfgd_19137621_Imad"); // set database name
+define ("DB_NAME",""); // set database name
 
 
 
