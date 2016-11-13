@@ -1,0 +1,569 @@
+body {
+    font-family: sans-serif;
+    background-image: url("/images/bg.jpg");
+    background-attachment: fixed;
+    opacity: 0.5m;
+}
+.overlay{
+    background-color: black;
+    opacity: 0.7;
+    border-left: 2px solid rebeccapurple;
+    border-right: 2px solid rebeccapurple;
+    border-top: 2px solid rebeccapurple;
+}
+.center {
+    text-align: center;
+}
+
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.text-big {
+    font-size: 250%;
+    font-family: fantasy;
+}
+
+.input-text{
+    width: 530px;
+    height: 250px; 
+    border-radius: 5px;
+    font-family:monospace;
+    font-size:20px;
+    color:yellow;
+    border: 2px solid greenyellow;
+}
+
+.bio {
+    color:white;
+    font-size: 150%;
+    font-family: fantasy;
+}
+
+.bold {
+    font-weight: bold;
+    color: white;
+}
+
+.underline {
+    font-weight: underline;
+}
+
+.img-medium {
+    height: 300px;
+    border-radius:50%;
+    border-left: 4px solid rebeccapurple;
+    border-right: 4px solid rebeccapurple;
+    border-top: 4px solid rebeccapurple;
+    border-bottom: 4px solid floralwhite;
+}
+.img-logo{
+    height: 80px;
+    border-radius:60%;
+    padding-right: 30px;
+}
+.footer{
+    color: ghostwhite;
+    font-size: 150%;
+    font-family: fantasy;
+}
+
+.list{
+    padding-bottom:4px;
+}
+
+a{
+    color:khaki;
+    font-family:sans-serif;
+    font-size:70%;
+    text-decoration: none;
+}
+
+a::hover{
+    color:orangered;
+    font-family:sans-serif;
+    font-size:70%;
+}
+
+.orange{
+    color:orange;
+}
+
+.mint{
+    color:yellowgreen;
+}
+
+.space{
+    padding-top:10px;
+
+}
+.lspace{
+    padding-top:130px;
+
+}
+
+.address{
+    font-family:monospace;
+    line-height: 40px;
+}
+
+
+.input-box{
+    width: 250px;
+    height: 25px; 
+    border-radius: 5px;
+    font-family:monospace;
+    margin-top:30px;
+    font-size:20px;
+    color:yellow;
+    border: 2px solid greenyellow;
+}
+
+
+.post-btn{
+    width:150px;
+    height:30px;
+    border-radius: 5px;
+    color:yellow;
+    font-family:monospace;
+    font-size:20px;
+    font-weight: bold;
+    background-color: darkblue;
+    cursor: pointer;
+    margin-left:165px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+
+.copyright{
+    color: darkorange;
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -10px;
+    margin-right: -5px;
+}
+
+.cptext{
+    margin-left: 100px;
+}
+
+.nav{
+    color: darkorange;
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -10px;
+    margin-right: -5px;
+    margin-top: -10px;
+}
+
+.nav-overlay{
+    background-color: black;
+    opacity: 1.0;
+    border-bottom: 2px solid darkkhaki;
+    border-top: 2px solid rebeccapurple;
+}
+
+.nav-head{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 100px;
+    color: khaki;
+    cursor: pointer;
+}
+
+.login_container{
+    margin-left: 400px;
+    margin-right: 400px;
+    border-bottom: 2px solid gold;
+    border-top: 2px solid gold;
+    border-left: 2px solid darkgoldenrod;
+    border-right: 2px solid darkgoldenrod;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.msg{
+    border: 1px solid #418ACC;
+    background-color: #D0E4F4;
+    color: darkblue;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    opacity: 0.7;
+    font-family: Courier New, Courier, monospace;
+}
+
+.nav-btn1{
+    position: absolute;
+    margin-left:910px;
+    width :100px;
+    margin-top: -60px;
+    height : 35px;
+    cursor: pointer;
+    background-color:transparent;
+    color:yellow;
+    font-size: 15px;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    border-left: 1px dashed yellow;
+    border-right: 1px dashed yellow;
+}
+
+.nav-btn{
+    position: absolute;
+    margin-top: -60px;
+    width :100px;
+    height : 35px;
+    margin-left:1000px;
+    background-color:transparent;
+    color:yellow;
+    cursor: pointer;
+    font-size: 15px;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 1px dashed yellow;
+}
+
+.chatbox {
+    position: fixed;
+    margin-left: 1000px;
+    margin-top: 0px;
+    margin-right: -21px;
+    width:295px;
+    height:600px;
+    /* padding-right: 100px; */
+    color: yellow;
+    background-color: black;
+    opacity: 0.5;
+    border-left: 2px solid rebeccapurple;
+    border-right: 2px solid rebeccapurple;
+    border-top: 2px solid rebeccapurple;
+    border-bottom: 2px solid rebeccapurple;
+}
+.chtext{
+    position:fixed;
+    margin-left: 1050px;
+    letter-spacing: 5px;
+    margin-top:15px;
+    font-size: 20px;
+    color:yellow;
+    text-decoration: underline;
+}
+.chuser{
+    line-height: 20px;
+    color: cyan;
+    margin-left: 1020px;
+    margin-top:40px;
+}
+.ilist{
+    border-left: 2px solid rebeccapurple;
+    border-right: 2px solid rebeccapurple;
+    border: 1px solid #418ACC;
+    background-color: #D0E4F4;
+    color: darkblue;
+    opacity: 0.7;
+    font-size:16px;
+    padding:10px;
+    width:210px;
+    height:460px;
+    position: fixed;
+    margin-left:15px;
+    overflow-y: scroll;
+}
+.alist{
+    color:darkblue;
+    font-size:16px;
+}
+.alist:hover{
+    color:darkred;
+    font-size:16px;
+    font-weight: bold;
+}
+.hcopyright{
+    color: darkorange;
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -10px;
+    margin-right: -5px;
+}
+
+.chr{
+    margin-right:10px;
+}
+
+.modal{
+    margin-left: 400px;
+    margin-right: 400px;
+    border-bottom: 2px solid gold;
+    border-top: 2px solid gold;
+    border-left: 2px solid darkgoldenrod;
+    border-right: 2px solid darkgoldenrod;
+    background-color: black;
+    opacity: 0.7;
+    display: none;
+}
+
+.modal-content{
+    background-color: #fefefe;
+    margin:15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close{
+    color:darkred;
+    float:right;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focous{
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.iinput-box{
+    width: 250px;
+    height: 25px; 
+    border-radius: 5px;
+    font-family:monospace;
+    margin-left:110px;
+    margin-top:30px;
+    font-size:20px;
+    color:yellow;
+    border: 2px solid greenyellow;
+}
+
+.online{
+    color:green;
+    font-size:20px;
+    border:1px solid green;
+    border-radius: 60px;
+    border-block-start-color: red;
+}
+.msg_container{
+    border: 2px solid greenyellow;
+    margin-left:1px;
+    margin-right:300px;
+    padding:10px;
+    width:970px;
+    height: 40px;
+    margin-top:450px;
+    position:fixed;
+}
+
+.mymsg{
+    width: 600px;
+    height: 35px; 
+    border-radius: 5px;
+    font-family:monospace;
+    margin-left:20px;
+    font-size:20px;
+    color:yellow;
+    text-align:center;
+    border: 2px solid palevioletred;
+    text-decoration: initial;
+}
+
+.mymsg_submit{
+    width:200px;
+    height:35px;
+    border-radius: 5px;
+    font-family:monospace;
+    margin-left:70px;
+    font-size:20px;
+    border: 2px solid sandybrown;
+    color:lightgoldenrodyellow
+}
+
+.mymsg_submit:hover,
+.mymsg_submit:focus{
+    width:200px;
+    height:35px;
+    border-radius: 5px;
+    font-family:monospace;
+    margin-left:70px;
+    font-size:20px;
+    border: 2px solid sandybrown;
+    background-color: green;
+    cursor:wait;
+    color:lightgoldenrodyellow
+}
+
+.uchat{
+    margin-left:120px;
+    width:860px;
+    height:60px;
+    border:1px solid wheat;
+    border-radius: 50px;
+}
+.uchat_msg{
+    margin-left:30px;
+    color:yellow;
+    font-size: 20px;
+    font-family: fantasy;
+    margin-top:20px;
+}
+
+.uchat_img{
+    color:yellow;
+    width:65px;
+    border-radius: 50px;
+    border:1px solid blue;
+    margin-top :-45px;
+    margin-left:-100px;
+    cursor: pointer;
+}
+
+.lchat{
+    margin-left:10px;
+    width:860px;
+    height:60px;
+    border:1px solid darkblue;
+    background-color: #D0E4F4;
+    color: darkblue;
+    border-radius: 30px;
+}
+.lchat_msg{
+    float:right;
+    margin-right: 30px;
+    color:darkblue;
+    font-size: 20px;
+    font-family: fantasy;
+    margin-top:20px;
+}
+
+.lchat:hover{
+    font-weight: bold;
+    font-size: 10px;
+    cursor: context-menu;
+}
+.uchat:hover{
+    font-weight: bold;
+    cursor: context-menu;
+}
+
+.lchat_img{
+    color:yellow;
+    width:65px;
+    border-radius: 50px;
+    border:1px solid blue;
+    margin-top :-45px;
+    margin-left:890px;
+}
+
+.mycontainer{
+    position:fixed;
+    width:999px;
+    height:470px;
+    overflow-y: scroll;
+    margin-top:-50px;
+}
+
+.mtitle{
+    margin-top:10px;
+    font-family: monospace;
+    color:darkcyan;
+    margin-left: 20px;
+}
+.mmsg{
+    margin-top:10px;
+    margin-left:20px;
+    font-family: monospace;
+    color:darkblue;
+    border: 1px solid #418ACC;
+    background-color: #D0E4F4;
+    margin-right: 20px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.minfo{
+    font-size: 15px;
+    color:red;
+    float: right;
+    margin-right: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top:-10px;
+}
+
+.ma{
+    font-size: 15px;
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.rmsg{
+    border: 1px solid coral;
+    background-color: antiquewhite;
+    color: red;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    opacity: 0.7;
+    font-family: Courier New, Courier, monospace;
+}
+
+.msgcontainer{
+    width:900px;
+    height:450px;
+    margin-right:100px;
+    margin-top:30px;
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
+
+
+.minput-box{
+    width: 350px;
+    height: 25px; 
+    border-radius: 5px;
+    font-family:monospace;
+    margin-top:30px;
+    margin-left:30px;
+    font-size:20px;
+    color:yellow;
+    border: 2px solid greenyellow;
+}
+
+.minput-text{
+    width: 730px;
+    height: 250px; 
+    border-radius: 5px;
+    font-family:monospace;
+    margin-top:30px;
+    margin-left:30px;
+    font-size:20px;
+    color:yellow;
+    border: 2px solid greenyellow;
+}
+.mpost-btn{
+    width:200px;
+    height:30px;
+    border-radius: 5px;
+    color:yellow;
+    font-family:monospace;
+    font-size:20px;
+    font-weight: bold;
+    background-color: darkblue;
+    cursor: pointer;
+    margin-left:565px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+
+
+
+
